@@ -1,14 +1,11 @@
-var clicks = 0
-
-
+var clicks = 0;
 
 function jackhammer() {
   clicks++;
     console.log(clicks);
   if (clicks === 5) {
     alert("you win!");
-  }
-  else {
+  } else {
     console.log("you're not clicking enough");
   }
 }
