@@ -5,7 +5,7 @@ var clicks = 0
 function jackhammer() {
   clicks++;
     console.log(clicks);
-  if (clicks == 5) {
+  if (clicks === 5) {
     alert("you win!");
   }
   else {
