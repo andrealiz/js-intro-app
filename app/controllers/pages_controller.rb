@@ -20,4 +20,7 @@ class PagesController < ApplicationController
   def jackhammer
   end
 
+  def daylight
+  end
+
 end
