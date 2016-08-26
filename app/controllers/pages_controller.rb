@@ -23,4 +23,8 @@ class PagesController < ApplicationController
   def daylight
   end
 
+  def box_calculator
+    
+  end
+
 end

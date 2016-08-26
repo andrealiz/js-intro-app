@@ -18,3 +18,12 @@ function jackhammer(box) {
     console.log("Stop clicking");
   }
 }
+
+function changeColor(box) {
+  var characters = '123456789ABCDEF'.split('');
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += characters[Math.floor(Math.random() * 16)];
+  }
+  box.style["background-color"] = color;
+}
